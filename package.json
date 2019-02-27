@@ -1,0 +1,43 @@
+{
+  "name": "webpack-vue-configurtation",
+  "version": "1.0.0",
+  "description": "Plataforma para los sitios DolarExpress y el sistema MoneyExpress",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack --mode development --watch",
+    "build": "cross-env NODE_ENV=production webpack --mode production --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ulises58/webpack-vue-bundle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulises58/webpack-vue-bundle/issues"
+  },
+  "homepage": "https://github.com/ulises58/webpack-vue-bundle#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "vue": "^2.6.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "vue-loader": "^15.6.4",
+    "vue-template-compiler": "^2.6.7",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
